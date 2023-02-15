@@ -7,9 +7,12 @@
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
       <div class="encriptar">
+
         <textarea
           name="texto"
           class="texto"
@@ -22,6 +25,7 @@
         <div class="terminos">
           <p>Solo letras minúsculas y sin acentos.</p>
         </div>
+        
         <div class="botones">
           <button class="btn-encriptar" type="button" onclick="encriptar()">
             Encriptar
@@ -30,20 +34,26 @@
             type="button"
             class="btn-desencriptar"
             value="Desencriptar"
-            onclick="desencriptar()"
-          />
+            onclick="desencriptar()"/>
         </div>
+
       </div>
+
       <div class="encriptado">
-        <img src="img/pregunta.png" alt="" id="muñeco" />
+
+        <img src="img/pregunta.png" alt="" id="mensaje" />
+
         <div class="mensaje-encriptado" id="mensaje-encriptado">
           <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
           <p id="parrafo">
             Ingresa el texto que deseas encriptar o desencriptar
           </p>
         </div>
+
       </div>
+
     </div>
+    
   </body>
   <script src="index.js"></script>
 </html>
